@@ -9,12 +9,11 @@ class GamesController < ApplicationController
     end
 
     def new
-        @game = Game.new
+        render json: Game.new
     end
 
     def create
-        @game = Game.create(game_params)
-        render json: @game
+        render json: Game.create(game_params)
     end
 
     private
