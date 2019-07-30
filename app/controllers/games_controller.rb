@@ -16,6 +16,16 @@ class GamesController < ApplicationController
         render json: Game.create(game_params)
     end
 
+    def edit
+        @game = Game.find(params['id'])
+    end
+
+    def update
+        @game = Game.find(params['id'])
+        @game.update(game_params)
+        render json: @game
+    end
+
     private
 
     def game_params
