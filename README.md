@@ -1,24 +1,10 @@
-# README
+# The Pancake Game
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A click-based race the clock to flip circular foods and make it big in the pancake biz.
 
-Things you may want to cover:
+[![Gameplay GIF](https://enigmatic-woodland-50751.herokuapp.com/static/media/pancakegame.d4a2fb7a.gif)](https://www.youtube.com/watch?v=0pZKUUfJpv4)
 
-* Ruby version
+Built with a React JS and SCSS front-end and Ruby on Rails / Postgres backend.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Front-end repo here:
+[https://github.com/ebolten/mod4_finalProject-frontend](https://github.com/ebolten/mod4_finalProject-frontend)
